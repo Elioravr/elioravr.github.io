@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'ubuntu';
+  src: url('fonts/Ubuntu-Regular.ttf');
+}
+
+body {
+  font-family: 'ubuntu'
+}
+
+.section {
+  text-align: center;
+}
+
+.section-me {
+  background-color: #333;
+  color: white;
+}
+
+.section-me .eliors-container {
+  opacity: 0;
+  margin-top: 60px;
+
+  -webkit-transition: opacity 1s, margin-top 1s;
+  transition: opacity 1s, margin-top 1s;
+}
+
+.section-me .eliors-container.shown {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.section-me .eliors-picture {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-me .tiny-text {
+  font-size: 15px;
+}
+
+.section-me .secondary-text {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.section-me .main-text {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.section-me .technologies {
+  margin-top: 45px;
+  opacity: 0;
+
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.section-me .technologies.shown {
+  opacity: 1;
+}
+
+.section-me .technologies .client-side {
+  margin-top: 25px;
+  margin-bottom: 15px;
+ }
+
+.section-me .technologies .icons-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-me .technologies .icon {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.section-me .sammary {
+  margin-top: 60px;
+  margin-bottom: 40px
+}
