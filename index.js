@@ -14,12 +14,16 @@ $(function () {
     //Navigation
     // menu: '#menu',
     // lockAnchors: false,
-    // anchors:['firstPage', 'secondPage'],
+    anchors:['intro', 'familyst', 'shameless', 'summary'],
     navigation: true,
     // navigationPosition: 'right',
     // navigationTooltips: ['firstSlide', 'secondSlide'],
     // showActiveTooltip: false,
     // slidesNavigation: true,
     // slidesNavPosition: 'bottom',
+  });
+
+  $('.flexslider').flexslider({
+    animation: "slide"
   });
 });

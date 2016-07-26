@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: rgba(175, 175, 175, 0.9);
+}
+
 .section-me {
   background-color: #333;
   color: white;
@@ -81,7 +85,140 @@ body {
   margin-right: 20px;
 }
 
-.section-me .sammary {
+.section-me .summary {
   margin-top: 60px;
   margin-bottom: 40px
+}
+
+.section-me .summary-icon {
+  width: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-bottom: 30px;
+
+  -webkit-transition: background-color 0.25s, width 0.25s;
+  transition: background-color 0.25s, width 0.25s;
+}
+
+.section-me .summary-icon:hover {
+  width: 110px;
+  background-color: white;
+}
+
+.section-me .summary-icon-container {
+  display: block;
+}
+
+/* Familyst Section */
+
+.familyst-section {
+  background-color: #087beb;
+  color: white;
+}
+
+.familyst-section .description {
+  float: left;
+  padding-left: 6%;
+  text-align: left;
+  width: calc(100% - 410px);
+}
+
+.familyst-section .description li {
+  line-height: 50px;
+}
+
+.familyst-section .familyst-logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.familyst-section .secondary-text {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.flexslider {
+  width: 288px;
+  height: 505px;
+  position: absolute;
+  right: 85px;
+  top: 93px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0px;
+}
+
+.flexslider .slides img {
+  width: 288px;
+  height: 505px;
+}
+
+.flex-control-nav.flex-control-paging {
+  bottom: -100px;
+}
+
+.flex-control-nav.flex-control-paging a {
+  background-color: white;
+}
+
+.flex-control-nav.flex-control-paging a:hover {
+  background-color: rgba(175, 175, 175, 0.9);
+}
+
+.flex-control-nav.flex-control-paging a.flex-active {
+  background-color: rgba(175, 175, 175, 0.9);
+}
+
+.iphone-image {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+/* Shameless Section */
+
+.shameless-section {
+  background-color: #212121;
+  color: white;
+}
+
+.shameless-section .main-text {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.shameless-section .secondary-text {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.shameless-section .description {
+  float: left;
+  padding-left: 6%;
+  text-align: left;
+  width: calc(100% - 510px - 6%);
+}
+
+.shameless-section .shameless-screenshot {
+  float: right;
+  margin-right: 50px;
+
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+.shameless-section .shameless-screenshot:hover {
+  opacity: 0.7;
+}
+
+.shameless-section .shameless-screenshot img {
+  width: 450px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.shameless-section .tiny-text {
+  font-size: 15px;
+  color: white;
 }

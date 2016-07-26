@@ -3,11 +3,13 @@
 <head>
   <script type="text/javascript" src="lib/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="lib/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="lib/jquery.flexslider-min.js"></script>
   <script type="text/javascript" src="lib/jquery.fullpage.min.js"></script>
   <script type="text/javascript" src="lib/tooltipster.bundle.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
 
   <link rel="stylesheet" type="text/css" href="lib/jquery.fullpage.min.css">
+  <link rel="stylesheet" type="text/css" href="lib/flexslider.css">
   <link rel="stylesheet" type="text/css" href="lib/tooltipster.bundle.min.css">
   <link rel="stylesheet" type="text/css" href="lib/tooltipster-sideTip-shadow.min.css">
   <link rel="stylesheet" type="text/css" href="index.css">
@@ -46,19 +48,72 @@
           </div>
         </div>
 
-        <div class="sammary secondary-text">Scroll down to review some of my projects:</div>
+        <div class="summary secondary-text">Scroll down to review some of my projects:</div>
       </div>
     </div>
 
     <div class="section familyst-section">
-      <iframe src="redirect-to-familyst.html" height="568" width="320"></iframe>
+      <div class="description">
+        <img class="familyst-logo" src="images/familyst-screenshots/familyst-white.svg">
+        <div class="secondary-text">Familyst is a hybrid application.</div>
+        <ul class="secondary-text">
+          <li>Synchronised shopping list</li>
+          <li>Simple and intuitive interface</li>
+          <li>Synchronised chat with every list</li>
+          <li>Learns the user's shopping habits</li>
+        </ul>
+      </div>
+      <div class="iphone-container">
+        <img class="iphone-image" src="images/familyst-screenshots/iphone.png">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="images/familyst-screenshots/1.png" />
+            </li>
+            <li>
+              <img src="images/familyst-screenshots/2.png" />
+            </li>
+            <li>
+              <img src="images/familyst-screenshots/3.png" />
+            </li>
+            <li>
+              <img src="images/familyst-screenshots/4.png" />
+            </li>
+            <li>
+              <img src="images/familyst-screenshots/5.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div class="section">
-      Section
+    <div class="section shameless-section">
+      <div class="description">
+        <div class="main-text">
+          Shameless
+        </div>
+        <div class="secondary-text">
+          "Shameless" is a blog that I've developed for a company with the same name
+        </div>
+        <a class="tiny-text" href="http://shameless.co.il">www.shameless.co.il</a>
+      </div>
+      <div class="shameless-screenshot">
+        <a href="http://shameless.co.il">
+          <img src="images/shameless-images/shameless-screenshot.png">
+        </a>
+      </div>
     </div>
-    <div class="section">
-      Section
+    <div class="section section-me">
+      <div class="description">
+        <div class="secondary-text">And more to come...</div>
+        <div class="secondary-text summary">Contact me:</div>
+        <a class="summary-icon-container" href="https://il.linkedin.com/in/elior-avramoviz-28692b89">
+          <img class="summary-icon" src="images/linkedin-icon.svg">
+        </a>
+        <a class="summary-icon-container" href="mailto:elioravr@gmail.com">
+          <img class="summary-icon" src="images/mail-ios.svg">
+        </a>
+      </div>
     </div>
   </div>
 </body>
