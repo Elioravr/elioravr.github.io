@@ -12,6 +12,11 @@ body {
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: white;
+}
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a.active span {
   background-color: rgba(175, 175, 175, 0.9);
 }
 
@@ -83,6 +88,13 @@ body {
 .section-me .technologies .icon {
   width: 60px;
   margin-right: 20px;
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+}
+
+.section-me .technologies .icon:hover {
+  -webkit-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
 }
 
 .section-me .summary {
@@ -96,13 +108,13 @@ body {
   cursor: pointer;
   margin-bottom: 30px;
 
-  -webkit-transition: background-color 0.25s, width 0.25s;
-  transition: background-color 0.25s, width 0.25s;
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
 }
 
 .section-me .summary-icon:hover {
-  width: 110px;
-  background-color: white;
+  -webkit-transform: scale(1.1,1.1); /* Safari */
+  transform: scale(1.1,1.1);
 }
 
 .section-me .summary-icon-container {
