@@ -14,7 +14,7 @@ $(function () {
     //Navigation
     // menu: '#menu',
     // lockAnchors: false,
-    anchors:['intro', 'familyst', 'shameless', 'summary'],
+    anchors:['intro', 'familyst', 'shameless', 'meety', 'summary'],
     navigation: true,
     // navigationPosition: 'right',
     // navigationTooltips: ['firstSlide', 'secondSlide'],
